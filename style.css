@@ -1,0 +1,1026 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.homePage {
+    /* Style for "home-page" */
+    width: 1366px;
+    height: 5710px;
+    color: black;
+    background-color: #ffffff;
+    /*    opacity: -1; от 0 до 1*/
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    /*    overflow: hidden;*/
+}
+
+.grid {
+    /* Style for "grid" */
+    width: 1170px;
+    height: 9000px;
+    background-color: #000000;
+    opacity: 0.2;
+    position: absolute;
+    left: 98px;
+    top: 0px;
+}
+
+.slider {
+    /* Style for "slider-img" */
+    /*    display: block;*/
+    width: 1366px;
+    height: 800px;
+    background: url(images/slider-img.jpg);
+    background-size: 100%;
+    /*    margin-bottom: 0 auto;*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    /*    opacity: 0.5;*/
+}
+
+.navbar {
+    /* Style for "navbar" */
+    width: 1366px;
+    height: 90px;
+    background-color: #f9f9f9;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.logo {
+    width: 185px;
+    height: 22px;
+    /*    background-color: #212121;*/
+    position: relative;
+    left: 98px;
+    top: 63px;
+}
+
+.Menu {
+    /* Style for "HOME     P" */
+    display: block;
+    width: 490px;
+    height: 10px;
+    padding: 0px;
+    margin: 0px;
+    color: #8c8c8c;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 665px;
+    top: 50px;
+    z-index: 2;
+    float: left;
+}
+
+.Menu li {
+    display: inline-block;
+    background-color: none;
+    font-family: Montserrat;
+    padding-right: 25px;
+}
+
+.Menu li:last-child {
+    padding-right: 0;
+}
+
+.Menu li a {
+    color: #8c8c8c;
+    font-family: "Montserrat Light";
+    font-weight: 300;
+    letter-spacing: 1.4px;
+}
+
+.Menu li:first-child a {
+    width: 74px;
+    height: 3px;
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+
+.Menu li a:active {
+    /* Style for "active" */
+    /*    text-decoration: underline;*/
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+    /*    background-color: #212121;*/
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.Menu li a:hover {
+    /* Style for "active" */
+    width: 74px;
+    height: 3px;
+    /*    background-color: #212121;*/
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.search {
+    /* Style for "search" */
+    display: flex;
+    position: absolute;
+    left: 1176px;
+    top: 63px;
+    width: 23px;
+    height: 23px;
+    /*    background-color: #000000;*/
+}
+
+.search a {
+    width: 100%;
+    height: 100%;
+}
+
+.search a:hover img {
+    width: 110%;
+    height: 110%;
+}
+
+.search a:active img {
+    width: 70%;
+    height: 70%;
+    padding-bottom: 8px;
+    border-bottom: 3px solid black;
+}
+
+.navigation {
+    /* Style for "navigation" */
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: 623px;
+    top: 741px;
+    z-index: 2;
+}
+
+.navigation:hover {
+    /* Style for "active" */
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #212121;
+    position: relative;
+    left: 623px;
+    top: 741px;
+    z-index: 2;
+}
+
+.sliderContent {
+    /* Style for "slider-con" */
+    width: 458px;
+    height: 227px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 98px;
+    top: 373px;
+    z-index: 2;
+}
+
+.tag {
+    /* Style for "TRENDING" */
+    width: 109px;
+    height: 10px;
+    /*
+    color: #43a047;
+    color: #ffffff;
+*/
+    font-family: Montserrat;
+    /*    в шаблоне текст больше чем область под него*/
+    /*    font-size: 18px;*/
+    font-size: 13px;
+    font-weight: 700;
+    /*    текст смещается относительно шаблона из-за несогласованности*/
+    /*    line-height: 48px;*/
+    text-transform: uppercase;
+    /* Text style for "TRENDING" */
+    color: #43a047;
+    letter-spacing: 1.8px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.name {
+    /* Style for "Fishnet Ch" */
+    width: 435px;
+    height: 43px;
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    /*    в шаблоне текст больше чем область под него*/
+    /*    font-size: 62px;*/
+    font-size: 43px;
+    font-weight: 400;
+    /*    текст смещается относительно шаблона из-за несогласованности*/
+    line-height: 72px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 8px;
+    top: 35px;
+}
+
+.details {
+    /* Style for "Seat and b" */
+    width: 458px;
+    height: 38px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 112px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.btnHover {
+    position: absolute;
+    left: 0px;
+    top: 182px;
+    /* Style for "back" */
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+}
+
+.btnHoverText {
+    /* Style for "Order Us" */
+    display: block;
+    position: absolute;
+    left: 31px;
+    top: 10px;
+    width: 125px;
+    height: 13px;
+    /*    color: #212121;*/
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    /*    font-size: 18px;*/
+    font-weight: 700;
+    /*    line-height: 24px;*/
+    text-transform: uppercase;
+    /* Text style for "Order Us" */
+}
+
+.btnHoverText:hover {
+    color: #212121;
+    letter-spacing: 3.6px;
+}
+
+.btnHoverText:active {
+    color: #6c6c6c;
+}
+
+.btnHoverArrow {
+    position: absolute;
+    left: 173px;
+    top: 10px;
+    /* Style for "arrow" */
+    width: 9px;
+    height: 12px;
+    /*
+    background-color: #212121;
+    background-color: #6c6c6c;
+*/
+}
+
+
+/*____________________________________________________featured product______________________*/
+
+.featured-p {
+    position: absolute;
+    left: 98px;
+    top: 920px;
+    ./* Style for "featured-p" */
+    width: 1171px;
+    height: 369px;
+}
+
+.tab-contro {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "tab-contro" */
+    width: 300px;
+    height: 49px;
+}
+
+.tab-contro a {
+    position: absolute;
+    /* Style for "New" */
+    /*    width: 80px;*/
+    height: 25px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #6c6c6c;
+    padding-bottom: 20px;
+}
+
+.tab-contro a:hover {
+    /* Style for "Featured" */
+    /*    width: 158px;*/
+    height: 27px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+    padding-bottom: 20px;
+}
+
+.btn-ghost {
+    position: absolute;
+    left: 992px;
+    top: 0px;
+    /* Style for "btn-ghost" */
+    width: 179px;
+    height: 13px;
+    /* Style for "explore al" */
+    width: 158px;
+    height: 13px;
+    color: #212121;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    /*    line-height: 24px;*/
+    text-transform: uppercase;
+    /* Text style for "explore al" */
+    color: #212121;
+    letter-spacing: 3.6px;
+}
+
+.tab-conten {
+    position: absolute;
+    left: 0px;
+    top: 99px;
+    /* Style for "tab-conten" */
+    width: 1170px;
+    height: 270px;
+}
+
+.product {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    /* Style for "product-1" */
+    width: 270px;
+    height: 270px;
+}
+
+.product-co {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    /* Style for "product-co" */
+    width: 270px;
+    height: 270px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+.productbtn {
+    position: absolute;
+    left: 111px;
+    top: 62px;
+    /* Style for "back" */
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.productname {
+    position: absolute;
+    left: 63px;
+    top: 129px;
+    /* Style for "Fishnet Ch" */
+    width: 145px;
+    height: 17px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+}
+
+.producttext {
+    position: absolute;
+    left: 32px;
+    top: 169px;
+    /* Style for "Seat and b" */
+    width: 206px;
+    height: 33px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.product:hover {
+    z-index: 1;
+}
+
+.product:active {
+    z-index: 1;
+}
+
+
+/*-----------------------------------------------------------------------promo*/
+
+.promo-prod {
+    position: absolute;
+    left: 0px;
+    top: 1409px;
+    /* Style for "promo-prod" */
+    width: 1366px;
+    height: 683px;
+}
+
+.promo-cont {
+    /* Style for "promo-cont" */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 683px;
+    height: 683px;
+}
+
+.promotag {
+    position: absolute;
+    left: 51px;
+    top: 228px;
+    /* Style for "exclusive" */
+    width: 115px;
+    height: 13px;
+    color: #1e88e5;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+}
+
+.promoname {
+    position: absolute;
+    left: 52px;
+    top: 259px;
+    /* Style for "Fishnet Ch" */
+    width: 236px;
+    height: 28px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.promodetails {
+    position: absolute;
+    left: 50px;
+    top: 311px;
+    /* Style for "Seat and b" */
+    width: 374px;
+    height: 36px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+}
+
+.promobtn {
+    position: absolute;
+    left: 50px;
+    top: 381px;
+    /* Style for "btn-hover" */
+    width: 212px;
+    height: 46px;
+    /* Style for "back" */
+    width: 212px;
+    height: 46px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+}
+
+
+/*
+.promobtntext {
+     Style for "Order Us" 
+    width: 120px;
+    height: 13px;
+    color: #212121;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.04px;
+    text-transform: uppercase;
+     Text style for "Order Us" 
+    color: #212121;
+    letter-spacing: 3.6px;
+}
+*/
+
+
+/*------------------------------------------------------------------------------trending products */
+
+.trending-p {
+    position: absolute;
+    left: 98px;
+    top: 2211px;
+    /* Style for "trending-p" */
+    width: 1171px;
+    height: 869px;
+}
+
+.trendingtitle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "title" */
+    width: 1171px;
+    height: 35px;
+}
+
+.trendingtitletext {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "Trending P" */
+    width: 331px;
+    height: 35px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trendingp {
+    position: absolute;
+    left: 0px;
+    top: 99px;
+    /* Style for "products" */
+    width: 1170px;
+    height: 770px;
+}
+
+.trendingproduct {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "product-11" */
+    width: 370px;
+    height: 370px;
+}
+
+
+/*------------------------------------------------------------------hotdeals*/
+
+.hotdeals {
+    position: absolute;
+    left: 0px;
+    top: 3200px;
+    /* Style for "hot-deals" */
+    width: 1366px;
+    height: 800px;
+}
+
+
+/*---------------------------------------------exclusive*/
+
+.exclusive {
+    position: absolute;
+    left: 98px;
+    top: 4120px;
+    /* Style for "exclusive-" */
+    width: 1170px;
+    height: 570px;
+}
+
+.exclprod1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "product-1-" */
+    width: 570px;
+    height: 570px;
+}
+
+.exclprodi {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "product-2-" */
+    width: 270px;
+    height: 270px;
+}
+
+
+/*----------------------------------------------mobileapp*/
+
+.mobileapp {
+    position: absolute;
+    left: 0px;
+    top: 4810px;
+    /* Style for "mobile-app" */
+    width: 1366px;
+    height: 516px;
+}
+
+.content {
+    position: absolute;
+    left: 98px;
+    top: 125px;
+    /* Style for "content" */
+    width: 415px;
+    height: 271px;
+}
+
+.contenttag {
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    /* Style for "mobile app" */
+    width: 128px;
+    height: 13px;
+    color: #6c6c6c;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "mobile app" */
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+}
+
+.contentname {
+    position: absolute;
+    left: 8px;
+    top: 35px;
+    /* Style for "Find. Foll" */
+    width: 407px;
+    height: 116px;
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.contentdetails {
+    position: absolute;
+    left: 1px;
+    top: 177px;
+    /* Style for "Save your" */
+    width: 413px;
+    height: 21px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.contentlink {
+    position: absolute;
+    left: 0px;
+    top: 231px;
+    /* Style for "app-store" */
+    width: 135px;
+    height: 40px;
+}
+
+
+/*________________________________________________________________________________________________*/
+
+
+/*FOOTER*/
+
+.footer {
+    position: absolute;
+    height: 384px;
+    width: 1366px;
+    left: 0px;
+    top: 5326px;
+    height: 384px;
+    /* Style for "footer-bac" */
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.first {
+    /* Style for "1" */
+    position: absolute;
+    left: 97px;
+    top: 120px;
+    width: 221px;
+    height: 139px;
+}
+
+.contactus {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "Contact Us" */
+    width: 132px;
+    height: 13px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 16px;
+    /*    font-size: 18px;*/
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: 1.8px;
+}
+
+.address {
+    /* Style for "132A Bridg" */
+    position: absolute;
+    left: 0px;
+    top: 37px;
+    width: 221px;
+    height: 102px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.second {
+    /* Style for "2" */
+    position: relative;
+    left: 398px;
+    top: 120px;
+    width: 422px;
+    height: 101px;
+}
+
+.usefullinfo {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /* Style for "Useful Inf" */
+    width: 237px;
+    height: 13px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 16px;
+    /*    font-size: 18px;*/
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "U, seful I" */
+    letter-spacing: 1.8px;
+}
+
+.usefulllinks1 {
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    width: 136px;
+    height: 62px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+}
+
+.usefulllinks2 {
+    position: absolute;
+    left: 235px;
+    top: 38px;
+    width: 190px;
+    height: 63px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+}
+
+.fouth {
+    /* Style for "4" */
+    position: absolute;
+    left: 898px;
+    top: 120px;
+    width: 370px;
+    height: 147px;
+}
+
+.fouthcaption {
+    /* Style for "Let’s Stay" */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 13px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "L, et’s St" */
+    letter-spacing: 1.8px;
+}
+
+.fouthtext {
+    position: absolute;
+    left: 0px;
+    top: 37px;
+    /* Style for "Suscribe t" */
+    width: 363px;
+    height: 36px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.formemail {
+    position: absolute;
+    left: 0px;
+    top: 99px;
+    width: 370px;
+    height: 48px;
+}
+
+.contactemail {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* Style for "input" */
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.sendcontactemail {
+    position: absolute;
+    left: 322px;
+    top: 1px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    /*    border: 1px solid #d9dee1;*/
+    background-color: #ffffff;
+    background-image: url(images/%EF%8D%A0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sendcontactemail:hover {
+    border: 1px solid #d9dee1;
+}
+
+.copyright {
+    /* Style for "© Copyrigh" */
+    position: absolute;
+    left: 98px;
+    top: 336px;
+    width: 362px;
+    height: 9px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 700;
+    /*    line-height: 26px;*/
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+}
+
+.sociallinks {
+    /* Style for "" */
+    position: absolute;
+    left: 618px;
+    top: 326px;
+    width: 129px;
+    height: 28px;
+    color: #6c6c6c;
+    font-family: icomoon;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for ", " */
+    letter-spacing: 5.6px;
+}
+
+
+/*подключение иконочного шрифта FontAwesome 4.7.0 через @import*/
+
+.social a {
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    /*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);*/
+    border-radius: 28px;
+    /*    margin: 0 10px 10px 0;*/
+    /*    padding: 6px;*/
+}
+
+.google-pluse a:hover {
+    background: #DD4B39;
+    color: #fff;
+}
+
+.twitter a:hover {
+    background: #00acee;
+    color: #fff;
+}
+
+.facebook a:hover {
+    background: #3b5998;
+    color: #fff;
+}
+
+.pinterest a:hover {
+    background: #c8232c;
+    color: #fff;
+}
+
+.termsandconditions {
+    /* Style for "Terms & Co" */
+    position: absolute;
+    left: 919px;
+    top: 334px;
+    width: 350px;
+    height: 12px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "T, erms &" */
+    letter-spacing: 0.6px;
+}
+
+.termsandconditions a:hover {
+    color: darkslateblue;
+}
